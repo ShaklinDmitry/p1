@@ -1,24 +1,41 @@
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf')  format('truetype') /* Только если нужна поддержка старых Android, иначе закомментировать */
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('../fonts/Open_Sans/OpenSans-Light.ttf')  format('truetype') /* Только если нужна поддержка старых Android, иначе закомментировать */
+}
+
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf')  format('truetype') /* Только если нужна поддержка старых Android, иначе закомментировать */
+}
+
 header{
-    padding: 50px 0 600px 0;
+    padding: 56px 0 600px 0;
     background-image: url("../images/Masthead/Layer-13.jpg");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 55.5% 151%;
 }
 
 .header_logo{
     display: inline-block;
     position: absolute;
 }
+
 .logo_text{
     display: inline-block;
-    margin:10px 0 0 50px;
+    margin:7px 0 0 51px;
     position: absolute;
     font-family: 'Merriweather Heavy Italic';
+    font-size: 20px;
     color:white;
 }
 
 .header_text{
-    margin: 350px 0 0 0;
+    margin: 361px 0 0 -19px;
 }
 
 header h1{
@@ -31,5 +48,8 @@ header p{
     font-family: "Open Sans Regular";
     font-size: 13px;
     color:white;
+    margin: 21px 0 10px 4px;
+    width:80%;
+    line-height: 23px;
 }
 
